@@ -1,0 +1,43 @@
+#calculadora{
+    width: 450px;
+    height: 700px;
+}
+
+.btn{
+    font-size: 19pt;
+    width: 100px;
+    height: 100px;
+}
+.op{
+    font-size: 19pt;
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
+p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#visor{
+    font-size:24px;
+    background-color: rgb(22, 236, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 100px;
+    text-align: right;
+
+}
+.igual{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 100px;
+    background-color: gray;
+}

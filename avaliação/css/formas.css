@@ -1,0 +1,14 @@
+
+
+
+.btn{ 
+background-color: lightblue;
+font-size: 19pt;
+width: 150px;
+height: 40px;
+display: center;
+}
+
+body{
+    background-color:lightslategray;
+}

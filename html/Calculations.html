@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../js/calculadora.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/calculadora.css">
+    <title>Calculation</title>
+</head>
+<body>
+    <main>
+        <form id="calculadora" name="calculadora">
+        <p> <input type="text" name="visor" id="visor"></p>
+           
+        <p> <input type="button"  class="btn" value="9" onclick="mvisor(value);">
+            <input type="button"  class="btn" value="8" onclick="mvisor(value);">
+            <input type="button"  class="btn" value="7" onclick="mvisor(value);">
+            <input type="button" class="op" value="/" onclick="mvisor(value);">
+        </p>
+        
+        <p> <input type="button" class="btn" value="6" onclick="mvisor(value);">
+            <input type="button" class="btn" value="5" onclick="mvisor(value);">
+            <input type="button" class="btn" value="4" onclick="mvisor(value);">
+            <input type="button" class="op" value="-" onclick="mvisor(value);">
+        </p>
+           
+        <p> <input type="button" class="btn" value="3" onclick="mvisor(value);">
+            <input type="button" class="btn" value="2" onclick="mvisor(value);">
+            <input type="button" class="btn" value="1" onclick="mvisor(value);">
+            <input type="button" class="op" value="*" onclick="mvisor(value);">
+        </p>
+           
+        <p> <input type="button" class="op" value="." onclick="mvisor(value);">
+            <input type="button" class="btn" value="0" onclick="mvisor(value);">
+            <input type="button" class="btn" value="C" onclick="limpa();">
+            <input type="button" class="btn" value="+" onclick="mvisor(value);">
+        </p>
+        <p>
+            <input type="button" class="igual" value="=" onclick="calcula()">
+        </p>
+
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
